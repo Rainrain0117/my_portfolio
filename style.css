@@ -69,7 +69,7 @@ a:hover{
 /* Start of body styles*/
 
 body{
-    height: 1880px;
+    height: 3880px;
     background: radial-gradient(ellipse at bottom,#1b2635 100px,#090a0f 900px);
 }
 
@@ -168,8 +168,8 @@ button{
     font-weight: lighter;
     font-size: 100px;
     color: yellow;
-    position: absolute;
-    top: 1000px;
+    position: relative;
+    top: 2600px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -181,10 +181,10 @@ button{
     font-family: subFont;
     font-weight: bold;
     font-size: 30px;
-    text-shadow: 2px 4px gray;
+    text-shadow: 2px 4px black;
     color: white;
     position: relative;
-    top: 1200px;
+    top: 2700px;
     margin-left: 450px;
     margin-top: 20px;
 }
@@ -193,9 +193,9 @@ button{
     font-family: subFont;
     font-size: 30px;
     color: white;
-    text-shadow: 2px 4px gray;
+    text-shadow: 2px 4px black;
     position: relative;
-    top: 820px;
+    top: 2320px;
     margin-left: 950px;
     margin-top: 20px;
     
@@ -210,7 +210,7 @@ button{
     font-family: mainFont;
     font-size: 80px;
     text-align: center;
-    top: 50px;
+    top: 0px;
     left: 0px;
     color: white;
     position: relative;
@@ -222,21 +222,9 @@ button{
     color: yellow;
 }
 
-.about-container{
-    background-color: rgb(71, 71, 71);
-    position: relative;
-    width : 80%;
-    padding: 50px 50px;
-    margin-top: 7%;
-    align-items: center;
-    border: 5px solid white;
-    opacity: 85%;
-    text-align: center;
-    left: 120px;
-    border-radius: 10px;
-    
+.about-title{
+    top: 1800px;
 }
-
 .about{
     font-family: mainFont;
     font-size: 50px;
@@ -284,7 +272,7 @@ footer{
     position: absolute;
     bottom: 0px;
     width: 1875px;
-    top: 1880px;
+    top: 3880px;
 
 }
 
@@ -365,7 +353,9 @@ footer{
 
 
 
-
+html {
+    scroll-behavior: smooth;
+  }
 
 
 /*Start of stars for parallax*/
