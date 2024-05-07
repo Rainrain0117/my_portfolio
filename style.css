@@ -64,7 +64,7 @@ a:hover{
     color: black;
     transition-duration: 0.9s;
 }
-
+/*                              INDEX STYLES                       */
 /* Start of body styles*/
 
 body{
@@ -86,6 +86,7 @@ h3{
     font-family: subFont;
     font-style: normal;
     font-size: 30px;
+    text-shadow: 2px 4px gray;
     color: white;
     position: absolute;
     top: 440px;
@@ -149,8 +150,90 @@ button{
     right: 400px;
     top: 200px;
     border: 3px solid white;
+    opacity: 80%;
     
 }
+
+#me:hover{
+    scale: 1.1;
+    transition-duration: 0.2s;
+    opacity: 100%;
+    
+}
+/* -------------------------------------END OF INDEX STYLES--------------------------*/
+
+
+/*                                  ABOUT PAGE STYLES                               */
+
+.dynamic-header{
+    font-family: mainFont;
+    font-size: 80px;
+    text-align: center;
+    top: 50px;
+    left: 0px;
+    color: white;
+    position: relative;
+
+
+}
+
+.typing{
+    color: yellow;
+}
+
+.about-container{
+    background-color: rgb(71, 71, 71);
+    position: relative;
+    width : 80%;
+    padding: 50px 50px;
+    margin-top: 7%;
+    align-items: center;
+    border: 5px solid white;
+    opacity: 85%;
+    text-align: center;
+    left: 120px;
+    border-radius: 10px;
+    
+}
+
+.about{
+    font-family: mainFont;
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 4px black;
+    color: yellow;
+    margin-top: 150px;
+    
+
+}
+
+.about-faq{
+    font-family: mainFont;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 4px black;
+    margin-bottom: 17px;
+    margin-top: 25px;
+    color: yellow;
+    margin-left: 20%;
+
+}
+
+.content{
+    font-family: subFont;
+    font-size: 23px;
+    color: white;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
 
 /* Start of footer styles*/
 
@@ -161,7 +244,7 @@ footer{
     bottom: 0px;
     width: 1875px;
     top: 1880px;
-    
+
 }
 
 .socials{
@@ -195,7 +278,7 @@ footer{
     font-family: mainFont;
     font-weight: lighter;
     font-size: 100px;
-    color: white;
+    color: yellow;
     position: absolute;
     top: 1000px;
     margin-left: auto;
@@ -209,6 +292,7 @@ footer{
     font-family: subFont;
     font-weight: bold;
     font-size: 30px;
+    text-shadow: 2px 4px gray;
     color: white;
     position: relative;
     top: 1200px;
@@ -220,6 +304,7 @@ footer{
     font-family: subFont;
     font-size: 30px;
     color: white;
+    text-shadow: 2px 4px gray;
     position: relative;
     top: 820px;
     margin-left: 950px;
