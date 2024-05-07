@@ -25,7 +25,7 @@ header{
 .logo{
     position: fixed;
     top: 20px;
-    left: 150px;
+    left: 70px;
     height: 40px;
     
     padding: 0px 0px;
@@ -38,6 +38,7 @@ header{
     padding: 0;
     text-align: right;
     font-size: 20px;
+    position: relative;
     
 }
 
@@ -160,6 +161,46 @@ button{
     opacity: 100%;
     
 }
+
+/*My gear styles*/
+.gear-header{
+    font-family: mainFont;
+    font-weight: lighter;
+    font-size: 100px;
+    color: yellow;
+    position: absolute;
+    top: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.gear-titles{
+    font-family: subFont;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 4px gray;
+    color: white;
+    position: relative;
+    top: 1200px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.gear-content{
+    font-family: subFont;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 4px gray;
+    position: relative;
+    top: 820px;
+    margin-left: 950px;
+    margin-top: 20px;
+    
+    
+}
 /* -------------------------------------END OF INDEX STYLES--------------------------*/
 
 
@@ -273,45 +314,7 @@ footer{
 }
 
 
-/*My gear styles*/
-.gear-header{
-    font-family: mainFont;
-    font-weight: lighter;
-    font-size: 100px;
-    color: yellow;
-    position: absolute;
-    top: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-}
 
-.gear-titles{
-    font-family: subFont;
-    font-weight: bold;
-    font-size: 30px;
-    text-shadow: 2px 4px gray;
-    color: white;
-    position: relative;
-    top: 1200px;
-    margin-left: 450px;
-    margin-top: 20px;
-}
-
-.gear-content{
-    font-family: subFont;
-    font-size: 30px;
-    color: white;
-    text-shadow: 2px 4px gray;
-    position: relative;
-    top: 820px;
-    margin-left: 950px;
-    margin-top: 20px;
-    
-    
-}
 
 
 
