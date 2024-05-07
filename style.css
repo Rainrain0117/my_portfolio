@@ -23,12 +23,13 @@ header{
     z-index: 5;
 }
 .logo{
-    position: fixed;
+    position: absolute;
     top: 20px;
-    left: 70px;
+    left: 170px;
     height: 40px;
-    
-    padding: 0px 0px;
+    width: auto;
+    padding: 2px 2px;
+    z-index: 2;
 }
 .menubar{
     font-family: subFont;
@@ -69,7 +70,7 @@ a:hover{
 /* Start of body styles*/
 
 body{
-    height: 3880px;
+    height: 1880px;
     background: radial-gradient(ellipse at bottom,#1b2635 100px,#090a0f 900px);
 }
 
@@ -81,13 +82,14 @@ h1{
     position: absolute;
     top: 370px;
     left: 250px;
+    
 }
 
 h3{
     font-family: subFont;
     font-style: normal;
     font-size: 30px;
-    text-shadow: 2px 4px gray;
+    text-shadow: 2px 4px black;
     color: white;
     position: absolute;
     top: 440px;
@@ -169,7 +171,7 @@ button{
     font-size: 100px;
     color: yellow;
     position: relative;
-    top: 2600px;
+    top: 900px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -184,9 +186,13 @@ button{
     text-shadow: 2px 4px black;
     color: white;
     position: relative;
-    top: 2700px;
-    margin-left: 450px;
-    margin-top: 20px;
+    top: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 30%;
+    right: 0;
+    line-height: 200%;
+    
 }
 
 .gear-content{
@@ -195,9 +201,12 @@ button{
     color: white;
     text-shadow: 2px 4px black;
     position: relative;
-    top: 2320px;
-    margin-left: 950px;
-    margin-top: 20px;
+    top: 575px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    right: 0;
+    line-height: 200%;
     
     
 }
@@ -272,7 +281,7 @@ footer{
     position: absolute;
     bottom: 0px;
     width: 1875px;
-    top: 3880px;
+    top: 1880px;
 
 }
 
