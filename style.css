@@ -522,6 +522,12 @@ footer{
     
     
 }
+.web1{
+    position: relative;
+    margin: 2% 5%;
+    border: 5px solid yellow;
+    border-radius: 2%;
+}
 
 .title1{
     font-family: mainFont;
@@ -554,6 +560,61 @@ footer{
 }
 
 .desc1{
+    position: relative;
+    font-family: subFont;
+    font-size: 20px;
+    text-shadow: 2px 3px black;
+    color: white;
+    padding: 2% 5%;
+}
+
+.skill-container2{
+    background-color: black;
+    box-shadow: 2px 1px gray;
+    position: relative;
+    margin: 5% 10%;
+    border-color: 2px solid white;
+    
+    
+}
+.saep1{
+    position: relative;
+    margin: 2% 5%;
+    border: 5px solid yellow;
+    border-radius: 2%;
+}
+
+.title2{
+    font-family: mainFont;
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 2px 3px black;
+    padding: 2% 5%;
+}
+
+.project2{
+    position: relative;
+    background-color: white;
+    margin: 1% 5%; 
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-family: subFont;
+    font-weight: bold;
+    font-size: 24px;
+    border: 4px solid gray;
+    border-radius: 7px;
+    
+}
+
+.project2:hover{
+    color: white;
+    background-color: black;
+    border: 4px solid white;
+}
+
+.desc2{
     position: relative;
     font-family: subFont;
     font-size: 20px;
