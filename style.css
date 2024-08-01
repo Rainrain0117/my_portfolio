@@ -629,8 +629,8 @@ footer{
     font-size: 26px;
     color: white;
     text-align: center;
-    position: relative;
-    margin-top: 0;
+    
+    margin-bottom:-10%;
     margin-left: 47%;
     
 }
