@@ -509,7 +509,7 @@ footer{
     text-align: center;
     text-shadow: 2px 4px black;
     color: yellow;
-    margin-top: 15%;
+    margin-top: 10%;
     line-height: 80px;
 }
 
@@ -621,6 +621,24 @@ footer{
     text-shadow: 2px 3px black;
     color: white;
     padding: 2% 5%;
+}
+
+.next{
+    
+    font-family: mainFont;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    margin-left: 47%;
+    
+}
+
+.next:hover{
+  
+    color: yellow;
+    
 }
 
 
